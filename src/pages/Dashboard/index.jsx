@@ -22,8 +22,14 @@ const Dashboard = ({
 }) => {
   
   useEffect(() => {
-  }, []);
+  }, []); // []是依赖项，为空[]时可以实现componentDidmound效果，相当于class的三个生命周期，详细请看官网
   
+  // const [aaa, setAaa] = useState(0);
+  // const [bbb, setBbb] = useState({xxx,yyy,zzz});
+  // 个人理解，class时，setState只需要书写{xxx: xxx},但是这已经是react帮我们对比做了，而如果我们只定义一个state，是可以，但是我们必须要写setBbb([...bbb,yyy: ''])
+  // 但是如果一个页面，需要的state很多，那么这么做，肯定是对性能有影响的，因为这个时候，react会把bbb里面全部数据全到新对象里面再去assign类似的合并
+  // 官网也建议 互无关联的写一个useState，并且做的很细，但是项目累计下来发现太细也不行，因为这样，太多了之后难以管理，所以我们是一个大类（比如下文里的row）一个useState
+
   const lineData = {
     xAxis_data: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map(item => {
       return item += '月';
