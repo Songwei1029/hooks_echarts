@@ -20,10 +20,25 @@ export const routeMap = [
   {
     title: '折线图柱状图',
     icon: 'dashboard',
-    type: 'link',
+    type: 'category',
     key: '/dashboard',
     hideInMenu: false,
-    children: []
+    children: [
+      {
+        title: '折线图和柱状图',
+        icon: null,
+        type: 'link',
+        key: '/dashboard/lineAndBar',
+        children: []
+      },
+      {
+        title: '象形柱图',
+        icon: null,
+        type: 'link',
+        key: '/dashboard/pictorialBar',
+        children: []
+      }
+    ]
   },
   {
     title: '饼图',
