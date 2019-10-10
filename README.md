@@ -8,7 +8,7 @@ react的hooks兴起之后，我们开始了新技术的探研，重新构建了�
 4. 对自己项目需求但是不常用的进行了封装（特别是时间选择器）。
 5. 我们把常用的都会封装，以达到统一性，我也已把封装方法写出来了大家指导指导：[npm插件制作](https://juejin.im/post/5c24c6b06fb9a049f57133d5)
 
-`注：本文不是针对hooks用法说明，也把项目中用法删了，所以hooks用法很少，只有自己封装使用到的用法，但是没有给予注释，建议直接查看官网，更准确`
+`注：本文不是针对hooks用法说明，也把项目中用法删了，所以hooks用法很少，只有自己封装使用到的用法，但是没有给予注释，建议直接查看官网，更准确`。
 
 ![](https://github.com/Songwei1029/hooks_echarts/raw/master/src/assets/images/introduce_one.png)
 ![](https://github.com/Songwei1029/hooks_echarts/raw/master/src/assets/images/introduce_two.png)
