@@ -11,8 +11,6 @@ const CommomDatePicker = memo(
     let firstChooseTime = 0;
 
     const pickerHandleChange = (datas, dateStrings) => {
-      console.log(dateStrings);
-      console.log(moment(dateStrings));
       if (dateStrings[0] !== 0) {
         if (num === 13) {
           return onChange([

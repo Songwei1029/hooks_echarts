@@ -3,6 +3,20 @@ react的hooks兴起之后，我们开始了新技术的探研，重新构建了�
 
 ### 项目介绍
 ![](https://github.com/Songwei1029/hooks_echarts/raw/master/src/assets/images/introduce_one.png)
+![](https://github.com/Songwei1029/hooks_echarts/raw/master/src/assets/images/introduce_two.png)
+![](https://github.com/Songwei1029/hooks_echarts/raw/master/src/assets/images/introduce_three.png)
+![](https://github.com/Songwei1029/hooks_echarts/raw/master/src/assets/images/introduce_four.png)
+![](https://github.com/Songwei1029/hooks_echarts/raw/master/src/assets/images/introduce_five.png)
+![](https://github.com/Songwei1029/hooks_echarts/raw/master/src/assets/images/introduce_six.png)
+![](https://github.com/Songwei1029/hooks_echarts/raw/master/src/assets/images/introduce_seven.png)
+![](https://github.com/Songwei1029/hooks_echarts/raw/master/src/assets/images/introduce_eight.png)
+![](https://github.com/Songwei1029/hooks_echarts/raw/master/src/assets/images/introduce_night.png)
+![](https://github.com/Songwei1029/hooks_echarts/raw/master/src/assets/images/introduce_ten.png)
+![](https://github.com/Songwei1029/hooks_echarts/raw/master/src/assets/images/introduce_eleven.png)
+![](https://github.com/Songwei1029/hooks_echarts/raw/master/src/assets/images/introduce_twelve.png)
+![](https://github.com/Songwei1029/hooks_echarts/raw/master/src/assets/images/introduce_thirteen.png)
+![](https://github.com/Songwei1029/hooks_echarts/raw/master/src/assets/images/introduce_fourteen.png)
+![](https://github.com/Songwei1029/hooks_echarts/raw/master/src/assets/images/introduce_fifteen.png)
 
 
 #### 第一步：拉取项目

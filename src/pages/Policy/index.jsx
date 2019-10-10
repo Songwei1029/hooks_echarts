@@ -29,7 +29,7 @@ const Policy = ({}) => {
           <Block title="时间选择" bodyClassName="chart-content" >
             <div className={styles['block']}>
               <CommomDatePicker  disabledInterval = {[7, 30]} onChange = {onChange}  />
-              根据选择的第一个时间锚点来禁选前后的时间          
+              根据选择的第一个时间锚点来禁选前后的时间(已默认禁选今天之后的日期)          
             </div>
               <Pie2 />
           </Block>
