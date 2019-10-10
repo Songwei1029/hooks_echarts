@@ -1,0 +1,46 @@
+@import '~antd/lib/style/themes/default.less';
+
+.statistic-card {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  min-width: 136px;
+  padding: 24px;
+  background: fade(@primary-1, 50%);
+  border-radius: 4px;
+
+  &-icon {
+    display: inline-block;
+    width: 66px;
+    height: 66px;
+    margin-right: 10px;
+    padding: 0;
+    vertical-align: middle;
+    border-radius: 50%;
+    &-square {
+      border-radius: 4px;
+    }
+  }
+
+  &-wrap {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  &-content {
+    color: @black;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  &-title {
+    overflow: hidden;
+    color: @text-color-secondary;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}

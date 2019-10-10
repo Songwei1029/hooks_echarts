@@ -1,0 +1,19 @@
+.margin(@direction: left, @val) when (@direction = left) {
+  margin-left: @val;
+}
+
+.margin(@direction: right, @val) when (@direction = right) {
+  margin-right: @val;
+}
+
+.margin(@direction: top, @val) when (@direction = top) {
+  margin-top: @val;
+}
+
+.margin(@direction: bottom, @val) when (@direction = bottom) {
+  margin-bottom: @val;
+}
+
+.margin(@direction: none, @top, @right, @bottom, @left) when (@direction = none) {
+  margin: @top @right @bottom @left;
+}

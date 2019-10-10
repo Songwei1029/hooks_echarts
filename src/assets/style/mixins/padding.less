@@ -1,0 +1,19 @@
+.padding(@direction: left, @val) when (@direction = left) {
+    padding-left: @val;
+  }
+  
+  .padding(@direction: right, @val) when (@direction = right) {
+    padding-right: @val;
+  }
+  
+  .padding(@direction: top, @val) when (@direction = top) {
+    padding-top: @val;
+  }
+  
+  .padding(@direction: bottom, @val) when (@direction = bottom) {
+    padding-bottom: @val;
+  }
+  
+  .padding(@direction: none, @top, @right, @bottom, @left) when (@direction = none) {
+    padding: @top @right @bottom @left;
+  }

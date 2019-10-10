@@ -1,0 +1,41 @@
+@import '~antd/lib/style/themes/default.less';
+
+.sider {
+  width: 200px;
+
+  :global(.ant-layout-sider-children) {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  :global {
+    .ant-menu-inline, .ant-menu-vertical {
+      border-right: 0;
+    }
+  }
+
+  :global(.ant-menu) {
+    flex: 1;
+  }
+
+  // :global(.ant-layout-sider-trigger) {
+  //   // background-color: #e8e8e8;
+  // }
+}
+
+.logo {
+  height: 32px;
+  margin-bottom: 0;
+  padding: 0 16px 0 24px;
+  line-height: 32px;
+  // border-right: 1px solid #e8e8e8;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+:global(.ant-layout-sider-collapsed) {
+  .logo {
+    padding: 0;
+    text-align: center;
+  }
+}

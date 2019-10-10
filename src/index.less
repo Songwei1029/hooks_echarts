@@ -1,0 +1,119 @@
+@import '~antd/lib/style/themes/default.less';
+@import './assets/style/mixins/clearfix';
+@import './assets/style/mixins/float';
+@import './assets/style/mixins/margin';
+@import './assets/style/mixins/padding';
+
+@primary-color: #1890ff;
+
+html,
+body {
+  height: 100%;
+}
+
+canvas {
+  display: block;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  &:link,
+  &:visited,
+  &:hover,
+  &:active {
+    text-decoration: none;
+  }
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nowrap {
+  max-width: 320px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.center {
+  text-align: center;
+}
+.float-left {
+  .float(left);
+}
+
+.float-right {
+  .float(right);
+}
+
+.ml_5 {
+  .margin(left, 5px) !important;
+}
+
+.mr_10 {
+  .margin(right, 10px) !important;
+}
+
+.mb_10 {
+  .margin(bottom, 10px) !important;
+}
+
+.mt_15 {
+  .margin(top, 15px) !important;
+}
+
+.mb_15 {
+  .margin(bottom, 15px) !important;
+}
+
+.mb_20 {
+  .margin(bottom, 20px) !important;
+}
+
+.mb_30 {
+  .margin(bottom, 30px) !important;
+}
+
+.mt_30{
+  .margin(top, 30px) !important;
+}
+
+.mt_10{
+  .margin(top, 10px) !important;
+}
+
+.pb_30{
+  .padding(bottom, 30px) !important;
+}
+
+.table-cover-img {
+  width: 45px;
+  height: 45px;
+  margin: 0 5px;
+  border: 1px solid @border-color-base;
+  border-radius: 4px;
+}
+
+.content-wrap {
+  min-height: 100%;
+  margin: 0 15px;
+  padding-top: 15px;
+}
+
+.chart-content {
+  min-height: 350px;
+  overflow: hidden;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+}
+.ant-radio-button-wrapper {
+  margin-right: 30px !important;
+}

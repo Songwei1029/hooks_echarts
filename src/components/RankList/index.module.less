@@ -1,0 +1,76 @@
+@import '~antd/lib/style/themes/default.less';
+
+.rank-list {
+  overflow: hidden;
+  border: 1px solid @border-color-split;
+}
+
+.loading-wrapper {
+  width: 100%;
+  padding: 16px 16px 0 16px;
+}
+
+.rank-item {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  border-bottom: 1px solid @border-color-split;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: @primary-1;
+  }
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  &-sort {
+    display: flex;
+    flex: 0 0 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    color: #535353;
+    font-weight: 600;
+    font-size: 32px;
+    border-right: 1px solid @border-color-split;
+  }
+
+  &-1st {
+    color: @highlight-color;
+  }
+
+  &-2nd {
+    color: @warning-color;
+  }
+
+  &-3rd {
+    color: @primary-color;
+  }
+
+  &-content {
+    display: flex;
+    flex: 1;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 12px 30px;
+
+    &-left, &-right {
+      display: inline-flex;
+      flex-flow: row nowrap;
+      align-items: center;
+    }
+    &-right {
+      width: 30%;
+    }
+  }
+  &-avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+  }
+  &-name {
+    margin-left: 12px;
+  }
+}
