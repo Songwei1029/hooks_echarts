@@ -94,7 +94,7 @@
     "echarts": "^4.2.1",
     "element-resize-event": "^3.0.3",
     "history": "^4.9.0",
-    "immer": "^2.1.4",
+    "immer": "^9.0.6",
     "js-cookie": "^2.2.0",
     "lodash": "^4.17.11",
     "memoize-one": "^5.0.2",
